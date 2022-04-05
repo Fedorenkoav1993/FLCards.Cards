@@ -1,11 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FLCards.Cards.Infrastructure\FLCards.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\FLCards.Common.Contracts\FLCards.Common.Contracts.csproj" />
+    <ProjectReference Include="..\FLCards.Dictionary.Contracts\FLCards.Dictionary.Contracts.csproj" />
+    <ProjectReference Include="..\FLCards.Dictionary.DataAccess\FLCards.Dictionary.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

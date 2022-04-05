@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using FLCards.Cards.Contracts.Queries;
 using FLCards.Cards.DataAccess.Repositories;
 using FLCards.Cards.Domain.Model.Representations;
-using FLCards.Cards.Infrastructure;
+using FLCards.Common.Infrastructure;
 
 namespace FLCards.Cards.ApplicationServices.Services
 {

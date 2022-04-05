@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +12,8 @@
   <ItemGroup>
     <ProjectReference Include="..\FLCards.Cards.ApplicationServices\FLCards.Cards.ApplicationServices.csproj" />
     <ProjectReference Include="..\FLCards.Cards.Contracts\FLCards.Cards.Contracts.csproj" />
-    <ProjectReference Include="..\FLCards.Cards.Infrastructure\FLCards.Cards.Infrastructure.csproj" />
+    <ProjectReference Include="..\FLCards.Cards.Infrastructure\FLCards.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\FLCards.Dictionary.ApplicationServices\FLCards.Dictionary.ApplicationServices.csproj" />
   </ItemGroup>
 
 

@@ -26,8 +26,11 @@ namespace FLCards.Cards
 			
 			services.AddSwaggerGen();
 
-			services.AddDataAccessService();
-			services.AddApplicationServices();
+			services
+				.AddDataAccessService()
+				.AddApplicationServices()
+				.AddDictionaryDataAccessService()
+				.AddDictionaryApplicationServices();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

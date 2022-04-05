@@ -1,14 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\FLCards.Cards.Contracts\FLCards.Cards.Contracts.csproj" />
     <ProjectReference Include="..\FLCards.Cards.DataAccess\FLCards.Cards.DataAccess.csproj" />
     <ProjectReference Include="..\FLCards.Cards.Domain\FLCards.Cards.Domain.csproj" />
-    <ProjectReference Include="..\FLCards.Cards.Infrastructure\FLCards.Cards.Infrastructure.csproj" />
+    <ProjectReference Include="..\FLCards.Cards.Infrastructure\FLCards.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\FLCards.Common.Contracts\FLCards.Common.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

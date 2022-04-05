@@ -1,7 +1,8 @@
 ﻿using System.Threading.Tasks;
 using FLCards.Cards.Contracts.Commands;
 using FLCards.Cards.Contracts.Queries;
-using FLCards.Cards.Infrastructure;
+using FLCards.Common.Contracts;
+using FLCards.Common.Infrastructure;
 
 namespace FLCards.Cards.ApplicationServices.Services
 {

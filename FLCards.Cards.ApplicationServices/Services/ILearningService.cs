@@ -1,5 +1,5 @@
 ﻿using FLCards.Cards.Contracts.Queries;
-using FLCards.Cards.Infrastructure;
+using FLCards.Common.Infrastructure;
 using System.Threading.Tasks;
 
 namespace FLCards.Cards.ApplicationServices.Services

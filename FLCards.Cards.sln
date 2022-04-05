@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLCards.Cards", "FLCards.Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLCards.Cards.Contracts", "FLCards.Cards.Contracts\FLCards.Cards.Contracts.csproj", "{9CA79EB1-E209-4F52-8E19-43C29D751E91}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLCards.Cards.Infrastructure", "FLCards.Cards.Infrastructure\FLCards.Cards.Infrastructure.csproj", "{AB28A1A5-7419-492C-A287-82318D35A6B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLCards.Common.Infrastructure", "FLCards.Cards.Infrastructure\FLCards.Common.Infrastructure.csproj", "{AB28A1A5-7419-492C-A287-82318D35A6B2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLCards.Cards.DataAccess", "FLCards.Cards.DataAccess\FLCards.Cards.DataAccess.csproj", "{299E813F-DFD0-4AF5-A46A-FAAF57F9F3E2}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLCards.Users", "FLCards.Users\FLCards.Users.csproj", "{D75975FE-D771-40D6-9D43-143791ACB942}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLCards.Users.Contracts", "FLCards.Users.Contracts\FLCards.Users.Contracts.csproj", "{263B29F2-EFDA-458F-B6CA-FE2354CB4501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLCards.Common.Contracts", "FLCards.Common.Contracts\FLCards.Common.Contracts.csproj", "{7B3D3015-20A3-4235-9438-04A9D1BBFF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLCards.Dictionary.DataAccess", "FLCards.Dictionary.DataAccess\FLCards.Dictionary.DataAccess.csproj", "{598DFC97-6069-4EF3-9BD7-3D444C4DDC19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{263B29F2-EFDA-458F-B6CA-FE2354CB4501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263B29F2-EFDA-458F-B6CA-FE2354CB4501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263B29F2-EFDA-458F-B6CA-FE2354CB4501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3D3015-20A3-4235-9438-04A9D1BBFF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3D3015-20A3-4235-9438-04A9D1BBFF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3D3015-20A3-4235-9438-04A9D1BBFF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3D3015-20A3-4235-9438-04A9D1BBFF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598DFC97-6069-4EF3-9BD7-3D444C4DDC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598DFC97-6069-4EF3-9BD7-3D444C4DDC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598DFC97-6069-4EF3-9BD7-3D444C4DDC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598DFC97-6069-4EF3-9BD7-3D444C4DDC19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

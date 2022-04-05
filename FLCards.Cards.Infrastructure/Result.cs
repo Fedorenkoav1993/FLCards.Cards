@@ -1,4 +1,4 @@
-﻿namespace FLCards.Cards.Infrastructure
+﻿namespace FLCards.Common.Infrastructure
 {
 	public class Result<TSuccess, TFailed>
 	{

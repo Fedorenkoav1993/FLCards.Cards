@@ -1,5 +1,5 @@
 ﻿using FLCards.Cards.Domain.Model.Representations;
-using FLCards.Cards.Infrastructure;
+using FLCards.Common.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
